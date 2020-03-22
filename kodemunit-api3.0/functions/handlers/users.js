@@ -15,6 +15,7 @@ exports.register = (req, res) => {
     locaTion: req.body.locaTion,
     compAccess: req.body.compAccess,
     goodTime: req.body.goodTime,
+    hoursWeek: req.body.hoursWeek,
     learningStyle: req.body.learningStyle,
     about: req.body.about
   };
@@ -32,6 +33,7 @@ exports.register = (req, res) => {
         locaTion: newUser.locaTion,
         about: newUser.about,
         compAccess: newUser.compAccess,
+        hoursWeek: newUser.hoursWeek,
         goodTime: newUser.goodTime,
         learningStyle: newUser.learningStyle,
         createdAt: new Date().toISOString(),
