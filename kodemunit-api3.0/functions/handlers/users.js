@@ -47,7 +47,7 @@ exports.register = (req, res) => {
     .then(() => {
       return res
         .status(201)
-        .json({ success: "Successful registerd to kodemunit" });
+        .json({ success: "Successful registerd to kodemunit,  we'll get intouch with you ASAP" });
     })
     .catch(err => {
       console.error(err);
